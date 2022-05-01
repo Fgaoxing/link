@@ -1,12 +1,11 @@
 <html>
   <head>
     <title>安全跳转</title>
-    <!--ico-->
-    <link rel="icon" href="https://img.yt-blog.top/png/big_logo.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="https://img.yt-blog.top/png/big_logo.png" type="image/x-icon"/>
-    <script src="https://cdn.jsdelivr.net/gh/Fgaoxing/Tool-js/tool.js"></script>
+    <link rel="icon" href="https://img.yt-blog.top/png/big_logo.png" type="image/x-icon" /><!--网站图标-->
+    <link rel="shortcut icon" href="https://img.yt-blog.top/png/big_logo.png" type="image/x-icon"/><!--网站图标-->
+    <script src="https://cdn.jsdelivr.net/gh/Fgaoxing/Tool-js/tool.js"></script><!--tool.js-->
   <script>
-    url='https://link.yt-blog.top'
+    url='https://link.yt-blog.top' // 安全跳转的网址
     MirrorProtection(url);
     RestrictedPass('yt-blog');//这里填写网站url的一部分即可（相当于防盗链，如果有好几个网站使用可以注释掉）
     TombSweepingDay();
@@ -14,14 +13,14 @@
     lantern();  
   </script>
   </head>
-  <body style="    margin: 100px 0;
+  <body style="
+    margin: 100px 0;
     background-position: center;
     background-image: url(https://img.yt-blog.top/png/beijing.png);/* 背景 */
     background-size: cover;
     background-repeat:repeat-x;
     background-attachment: fixed;">
-<div 
-style="
+<div style="
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,8 +36,8 @@ style="
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 500px;
-    height: 330px;"><div 
-style="
+    height: 330px;">
+  <div style="
     position: absolute;
     top: 50%;
     left: 50%;
@@ -47,11 +46,10 @@ style="
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-"><center>
-<h1 style="
-    font-size: 50px;
-">安全跳转</h1>
-  <p>请确认您不是被自动跳转，接下来的网站不是本站了，请注意安全</p>
+">
+<center>
+<h1 style="font-size: 50px;">安全跳转</h1>
+<p>请确认您不是被自动跳转，接下来的网站不是本站了，请注意安全</p>
 <button type="button" class="go-home-button" onclick="window.location.href=getQueryVariable('url','/');"style="
     cursor: pointer;
     position: relative;
